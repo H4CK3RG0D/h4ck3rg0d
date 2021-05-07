@@ -6,6 +6,5 @@
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on Discord.js API
-- 🌱 I’m currently learning Javascript
-- 😄 Pronouns: He/Him
+- 🌱 I’m currently learning Javascript, Java, C++, Python
 
