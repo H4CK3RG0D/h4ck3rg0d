@@ -9,4 +9,4 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning Javascript, Java, C++, Swift, PYTHON
 
 HAAAS CNC MACHINE SEMI CERTIFIED
-
+ABB Robot Certified
