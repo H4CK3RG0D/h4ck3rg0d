@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel=stylesheet href=../blogstyles/blog.css>
+    <title>notasuslink</title>
+</head>
+<body> 
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="logo_content">
+                <div class="logo">
+                    <div class="title">The Thu Blog</div> 
+                    <i class='bx bx-home-alt-2' id="btn"></i>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="#">
+                        <i class='bx bxl-java' ></i>
+                        <span class="projects">AP Comp Sci A</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i2 class='bx bx-package'></i2>
+                        <span class="projects">Projects</span>
+                        <i2 class='bx bx-chevron-down' ></i2>
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="#">notasuslink</a></li>
+                        <li><a href="#">discord bot</a></li>
+                        <li><a href="#">stuffs</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="content_wrapper">
+            <div class="md-body">
+                <h2>Introduction</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        let btn = document.querySelector("#btn");
+        
+        btn.onclick = function() {
+            location.replace('../home.html')
+        }
+
+    </script>
+</body>
+</html>
