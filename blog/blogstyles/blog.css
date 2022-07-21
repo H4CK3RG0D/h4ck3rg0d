@@ -121,6 +121,10 @@ body {
 /* THE MAIN BLOG */
 
 .md-body{
+    position: relative;
     left: 250px;
+    bottom: 150px;
     color: #fff;
+    height: 200px;
+    width: 750%;
 }
