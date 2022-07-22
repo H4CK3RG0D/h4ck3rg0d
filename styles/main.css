@@ -106,7 +106,7 @@
 	left: 0;
 	height: 100%;
 	z-index: 999;
-	background-color: #fc7474;
+	background-color: #936abe;
 	-webkit-animation: bar 1s;
 	animation: bar 1s
 }
@@ -128,7 +128,7 @@
 }
 
 .title--link {
-	color: #fc7474;
+	color: #936abe;
 	-webkit-animation: text 1s;
 	animation: text 1s
 }
@@ -194,7 +194,7 @@
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	background-color: #febfbf;
+	background-color: #b785ec;
 	height: 10%;
 	width: 0;
 	transition: all .3s
@@ -373,13 +373,13 @@
 }
 
 .topic--body a {
-	color: #fc7474;
+	color: #936abe;
 	text-decoration: none
 }
 
 .topic--body a:hover {
 	border-bottom: 2px solid rgba(0, 0, 0, .2);
-	color: #fb4242
+	color: #8851c2
 }
 
 .topic--body sup {
