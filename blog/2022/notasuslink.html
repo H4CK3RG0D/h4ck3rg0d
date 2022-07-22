@@ -38,13 +38,46 @@
             </ul>
             <div class="profile_details"></div>
         </div>
-        <div class="content_wrapper">
+        <section class="content_wrapper">
             <div class="md-body">
-                <h2>Introduction</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+                <a href="#">
+                    <h1>notasuslink</h1>
+                    <p>July 21 2022<br> Just a troll website</p>
+                </a>
+                <h2 id="overview" tabindex="-1">
+                    <a class="header-anchor" href="#overview" >
+                        <span >#</span>
+                    </a> 
+                    Overview
+                </h2>
+                <p>This was just a troller wbsite I made to learn javascript and web developing. But after going at it for a week, ideas just keep coming in which kept me to make it bigger. The first thing added was a fake code generator for vbucks, because a friend of mine keep begging me for it. Soon I added a login prompt because I just want to make it more legit and to sharpen my css skills, plus added another generator.</p>
+                <h2 id="generator" tabindex="-1">
+                    <a class="header-anchor" href="#overview" >
+                        <span >#</span>
+                    </a> 
+                    Generator
+                    <h3 id="jscode" tabindex="-1">
+                        <a class="header-anchor" href="#overview" >
+                            <span >##</span>
+                        </a> 
+                         The Javascript Code
+                    </h3>
+                    <p>The javascript code used to generate was worked on replacing a string with numbers randomly generated which then was decoded by <code>0x3</code></p>
+                    <pre>
+                        <code class="language/javascript"> <span class="hljs-keyword">function</span> create_UUID() {
+                            <span class="hljs-keyword">var</span> dt = <span class="hljs-keyword">new</span> Date().getTime();
+                            <span class="hljs-keyword">var</span> uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxx♱ւο∟₤∑∂'.replace(/[xy]/g, <span class="hljs-keyword">function</span>(<span class="hljs-params">c</span>) {
+                                    var r = (dt + Math.random()*16)%16 | 0;
+                                    dt = Math.floor(dt/16);
+                                    return (c=='x' ? r :(r&0x3|0x8)).toString(16);
+                                });
+                                return uuid;
+                                console.log(create_UUID())
+                              } </code>
+                    </pre>
+                </h2>
             </div>
-        </div>
+        </section>
     </div>
     <script>
         let btn = document.querySelector("#btn");
