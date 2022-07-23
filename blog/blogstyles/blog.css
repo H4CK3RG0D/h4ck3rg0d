@@ -43,6 +43,12 @@ body {
       overflow: hidden;
       overflow-x: scroll;
     }
+    .sidebar ul li .sub-menu li a{
+      pointer-events: none;
+    }
+    .sidebar ul li .sub-menu li a:hover{
+      background-color: #100f16;
+    }
 }
 .sidebar{
   position: fixed;
