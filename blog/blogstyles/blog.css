@@ -13,7 +13,44 @@ body {
     width: 100%;
     overflow: hidden;
 }
+.mobile-icon {
+	margin-left: -100px;
+  color: #fff;
+  font-size: 30px;
+} 
 
+@media only screen and (max-width: 768px) {
+    .sidebar {
+      margin-left: -200px;
+    }
+    section.md-body{
+      position: relative;
+      color: #100f16;
+      height: 100%; 
+      width: 150%;   
+      padding: 10%; 
+      top: -20%;
+      background-color: #9F7EC4; 
+    }
+    .md-body .highlight pre, .md-body pre {
+      padding: 90px;
+      overflow: auto;
+      background-color: aqua;
+      width: 70%;
+      right: 50px;
+      border-radius: 15px;
+    }
+    .mk-body pre code{
+      padding: 5%;
+    }
+    .md-body pre  code.language\/javascript{
+      overflow: hidden;
+      overflow-x: scroll;
+    }
+    ::-webkit-scrollbar-track-piece{
+
+    }
+}
 .sidebar{
   position: fixed;
   left: 0;
@@ -110,14 +147,22 @@ body {
   display: flex;
   width: 100%;
 }
-.content_wrapper {
-  width: 100%;
-  max-width: 1200px;
-}
 ::-webkit-scrollbar-thumb {
-  border-radius: 2px;
-  background-color: #9F7EC4;
+  border-radius: 2em;
+  background-color: #100f16;
 }
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 2px;
+  size: 5cm;
+  background-color: #1b1a22;
+}
+::-webkit-scrollbar{
+  width: 2px;
+}
+::-webkit-scrollbar-track{
+  background-color: #ffff;
+}
+
 /* THE MAIN BLOG */
 
 .md-body{
@@ -125,10 +170,12 @@ body {
     left: 250px;
     bottom: 150px;
     color: #100f16;
-    height: 200px;
-    width: 450%;
-    
-}
+    height: 100%;
+    width: 550%;   
+    padding: 10%;  
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
 .md-body a{
   text-decoration: none;
 }
@@ -170,6 +217,7 @@ h1 {
   font-weight: 600;
   line-height: 1.25;
   text-decoration: dashed;
+  pointer-events: none;
 }
 .md-body p{
   color: #100f16;
@@ -187,21 +235,22 @@ h1 {
   padding: 16px;
   overflow: auto;
   font-size: 85%;
+  width: 70%;
   line-height: 1.45;
   background-color: #936abe;
   border-radius: 3px;
   right: 50px;
+  border-radius: 15px;
 }
 .mk-body pre code {
   display: inline;
-  max-width: auto;
+  max-width: 50px;
   padding: 0;
   margin: 0;
   overflow: visible;
   line-height: inherit;
   word-wrap: normal;
   background-color: initial;
-  border: 0;
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
   font-size: 12px;
 }
@@ -212,5 +261,10 @@ h1 {
   word-break: normal;
   white-space: pre;
   background: 0 0;
-  border: 0;
 }
+.md-body pre  code.language\/javascript{
+  margin-left: -10px;
+  padding: 0%;
+}
+
+/* code keywords */

@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel=stylesheet href=../blogstyles/blog.css>
+    <title>notasuslink</title>
 </head>
-<body>
-    
+<body> 
+ 
+        <div class="sidebar">
+            <div class="logo_content">
+                <div class="logo">
+                    <div class="title">The Thu Blog</div> 
+                    <i class='bx bx-home-alt-2' id="btn"></i>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="#">
+                        <i class='bx bxl-java' ></i>
+                        <span class="projects">AP Comp Sci A</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i2 class='bx bx-package'></i2>
+                        <span class="projects">Projects</span>
+                        <i2 class='bx bx-chevron-down' ></i2>
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="#">notasuslink</a></li>
+                        <li><a href="#">discord bot</a></li>
+                        <li><a href="#">stuffs</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="profile_details"></div>
+        </div>
+
+            <section class="md-body">
+                <a href="#">
+                    <h1>AP Computer Science A</h1>
+                    <p>August 15 2022<br> APCSA blog</p>
+                </a>
+                <h2 id="overview" tabindex="-1">
+                    <a class="header-anchor" href="#overview" >
+                        <span >#</span>
+                    </a> 
+                    Overview
+                </h2>
+                <p>This subject is gonna be about my studies through the my class APCSA. I'll keep updating it everyday starting August 15 2022.</p>
+            </section>
+
+    <script>
+        let btn = document.querySelector("#btn");
+        
+        btn.onclick = function() {
+            location.replace('../home.html')
+        }
+
+    </script>
 </body>
 </html>

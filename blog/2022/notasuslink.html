@@ -9,7 +9,7 @@
     <title>notasuslink</title>
 </head>
 <body> 
-    <div class="wrapper">
+
         <div class="sidebar">
             <div class="logo_content">
                 <div class="logo">
@@ -38,8 +38,8 @@
             </ul>
             <div class="profile_details"></div>
         </div>
-        <section class="content_wrapper">
-            <div class="md-body">
+     
+            <section class="md-body">
                 <a href="#">
                     <h1>notasuslink</h1>
                     <p>July 21 2022<br> Just a troll website</p>
@@ -50,35 +50,36 @@
                     </a> 
                     Overview
                 </h2>
-                <p>This was just a troller wbsite I made to learn javascript and web developing. But after going at it for a week, ideas just keep coming in which kept me to make it bigger. The first thing added was a fake code generator for vbucks, because a friend of mine keep begging me for it. Soon I added a login prompt because I just want to make it more legit and to sharpen my css skills, plus added another generator.</p>
+                <p>Initially, this was just a troller website I made to learn javascript and web developing. But after going at it for a weeks, ideas just keep coming in which kept me to make it bigger. The first thing added was a fake code generator for vbucks, because a friend of mine keep begging me for it. Soon I added a login prompt because I just want to make it more legit and to sharpen my css skills, plus added another generator.</p>
                 <h2 id="generator" tabindex="-1">
-                    <a class="header-anchor" href="#overview" >
+                    <a class="header-anchor" href="#generator" >
                         <span >#</span>
                     </a> 
                     Generator
                     <h3 id="jscode" tabindex="-1">
-                        <a class="header-anchor" href="#overview" >
+                        <a class="header-anchor" href="#generator" >
                             <span >##</span>
                         </a> 
                          The Javascript Code
                     </h3>
                     <p>The javascript code used to generate was worked on replacing a string with numbers randomly generated which then was decoded by <code>0x3</code></p>
                     <pre>
-                        <code class="language/javascript"> <span class="hljs-keyword">function</span> create_UUID() {
-                            <span class="hljs-keyword">var</span> dt = <span class="hljs-keyword">new</span> Date().getTime();
-                            <span class="hljs-keyword">var</span> uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxx♱ւο∟₤∑∂'.replace(/[xy]/g, <span class="hljs-keyword">function</span>(<span class="hljs-params">c</span>) {
-                                    var r = (dt + Math.random()*16)%16 | 0;
-                                    dt = Math.floor(dt/16);
-                                    return (c=='x' ? r :(r&0x3|0x8)).toString(16);
-                                });
-                                return uuid;
-                                console.log(create_UUID())
-                              } </code>
+                        <code class="language/javascript"> 
+                            function create_UUID() {
+                            var dt = new Date().getTime();
+                            var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxx♱ւο∟₤∑∂'.replace(/[xy]/g, function(c) {
+                                var r = (dt + Math.random()*16)%16 | 0;
+                                dt = Math.floor(dt/16);
+                                return (c=='x' ? r :(r&0x3|0x8)).toString(16);
+                            });
+                            return uuid;
+                            console.log(create_UUID())
+                              } 
+                            </code>
                     </pre>
                 </h2>
-            </div>
-        </section>
-    </div>
+            </section>
+   
     <script>
         let btn = document.querySelector("#btn");
         
