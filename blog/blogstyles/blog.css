@@ -27,18 +27,14 @@ body {
       position: relative;
       color: #100f16;
       height: 100%; 
-      width: 150%;   
+      width: 165%;   
       padding: 10%; 
       top: -20%;
       background-color: #9F7EC4; 
     }
-    .md-body .highlight pre, .md-body pre {
-      padding: 90px;
-      overflow: auto;
-      background-color: aqua;
-      width: 70%;
-      right: 50px;
-      border-radius: 15px;
+    .md-body pre {
+      width: 104% !important;
+      margin: 0;
     }
     .mk-body pre code{
       padding: 5%;
@@ -47,9 +43,7 @@ body {
       overflow: hidden;
       overflow-x: scroll;
     }
-    ::-webkit-scrollbar-track-piece{
 
-    }
 }
 .sidebar{
   position: fixed;
@@ -231,7 +225,7 @@ h1 {
   background-color: #936abe;
 
 }
-.md-body .highlight pre, .md-body pre {
+ .md-body pre {
   padding: 16px;
   overflow: auto;
   font-size: 85%;
