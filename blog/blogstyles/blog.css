@@ -43,7 +43,6 @@ body {
       overflow: hidden;
       overflow-x: scroll;
     }
-
 }
 .sidebar{
   position: fixed;
@@ -144,17 +143,17 @@ body {
 ::-webkit-scrollbar-thumb {
   border-radius: 2em;
   background-color: #100f16;
+  height: 12px;
 }
 ::-webkit-scrollbar-thumb:hover {
   border-radius: 2px;
-  size: 5cm;
   background-color: #1b1a22;
 }
 ::-webkit-scrollbar{
   width: 2px;
 }
 ::-webkit-scrollbar-track{
-  background-color: #ffff;
+  background-color: #936abe;
 }
 
 /* THE MAIN BLOG */
