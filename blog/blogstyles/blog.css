@@ -30,6 +30,9 @@ body {
       width: 165%;   
       padding: 10%; 
       top: -20%;
+      overflow-x: hidden;
+      overflow-y: auto;
+      transform: translateY(-5%);
       background-color: #9F7EC4; 
     }
     .md-body pre {
@@ -49,6 +52,10 @@ body {
     .sidebar ul li .sub-menu li a:hover{
       background-color: #100f16;
     }
+    .sidebar ul li a{
+      color: #100f16;
+    }
+    
 }
 .sidebar{
   position: fixed;
@@ -172,6 +179,7 @@ body {
     height: 100%;
     width: 550%;   
     padding: 10%;  
+    transform: translateY(-5%);
     overflow-x: hidden;
     overflow-y: auto;
   }
