@@ -61,8 +61,8 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  height: 100%;
-  width: 240px;
+  height: 100% !important;
+  width: 240px !important;
   background: #100f16;
   padding: 6px 14px;
 }
