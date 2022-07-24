@@ -186,6 +186,15 @@ body {
 .md-body a{
   text-decoration: none;
 }
+.md-body a:visited{
+  color: #100f16;
+}
+.md-body a:link{
+  color: #100f16;
+}
+.md-body a:hover{
+  color: hotpink;
+}
 .md-body h1, h2, h3, h4, h5 {
   padding-top: 20px;
   margin-top: -20px;
