@@ -13,11 +13,19 @@ body {
     width: 100%;
     overflow: hidden;
 }
-.mobile-icon {
-	margin-left: -100px;
-  color: #fff;
-  font-size: 30px;
-} 
+
+.back-pic{
+  position: fixed;
+  width: 600px;
+  height: 600px;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  transform: translate(90%, 18%);
+}
+.back-pic picture img{
+  opacity: 75%;
+}
+
 
 @media only screen and (max-width: 768px) {
     .sidebar {
