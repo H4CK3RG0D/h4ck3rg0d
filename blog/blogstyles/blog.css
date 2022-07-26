@@ -46,14 +46,9 @@ body {
     .md-body pre {
       width: 104% !important;
       margin: 0;
-    }
-    .mk-body pre code{
-      padding: 5%;
-      font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-    }
-    .md-body pre  code.language\/javascript{
-      overflow: hidden;
-      overflow-x: scroll;
+      overflow-x: hidden;
+      overflow-y: auto;
+      height: 250px;
     }
     .sidebar ul li .sub-menu li a{
       pointer-events: none;
@@ -267,6 +262,8 @@ h1 {
   border-radius: 3px;
   right: 50px;
   border-radius: 15px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 /*
 .mk-body pre code {
