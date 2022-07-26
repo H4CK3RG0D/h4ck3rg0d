@@ -248,7 +248,7 @@ h1 {
   color: #100f16;
   font-weight: 500;
 }
-.md-body code {
+/* .md-body code {
   padding: 0;
   margin: 0;
   font-size: 100%;
@@ -292,4 +292,4 @@ h1 {
   margin-left: -10px;
   padding: 0%;
   transform: translateX(-100%);
-}
+} */
