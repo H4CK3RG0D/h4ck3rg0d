@@ -49,6 +49,7 @@ body {
     }
     .mk-body pre code{
       padding: 5%;
+      font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
     }
     .md-body pre  code.language\/javascript{
       overflow: hidden;
@@ -247,15 +248,16 @@ h1 {
   color: #100f16;
   font-weight: 500;
 }
-.md-body code {
+/* .md-body code {
   padding: 0;
   margin: 0;
-  font-size: 95%;
+  font-size: 100%;
   border-radius: 3px;
   background-color: #936abe;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
 
 }
- .md-body pre {
+ /* .md-body pre {
   padding: 16px;
   overflow: auto;
   font-size: 85%;
@@ -286,9 +288,8 @@ h1 {
   white-space: pre;
   background: 0 0;
 }
-.md-body pre  code.language\/javascript{
+.md-body pre  code.javascript{
   margin-left: -10px;
   padding: 0%;
-}
-
-/* code keywords */
+  transform: translateX(-100%);
+} */
