@@ -255,8 +255,8 @@ h1 {
   border-radius: 3px;
   color: #100f16;
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-
 }
+*/
  .md-body pre {
   padding: 16px;
   overflow: auto;
@@ -268,6 +268,7 @@ h1 {
   right: 50px;
   border-radius: 15px;
 }
+/*
 .mk-body pre code {
   display: inline;
   max-width: 50px;
