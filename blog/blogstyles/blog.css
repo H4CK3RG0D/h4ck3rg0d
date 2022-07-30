@@ -31,7 +31,7 @@ body {
     .sidebar {
       margin-left: -200px;
     }
-    section.md-body{
+    .md-body{
       position: relative;
       color: #100f16;
       height: 100%; 
@@ -253,14 +253,13 @@ h1 {
 }
 */
  .md-body pre {
-  padding: 16px;
+  padding: 0px;
   overflow: auto;
   font-size: 85%;
   width: 70%;
   line-height: 1.45;
   background-color: #282c34;
   border-radius: 3px;
-  right: 50px;
   border-radius: 15px;
   overflow-x: hidden;
   overflow-y: auto;

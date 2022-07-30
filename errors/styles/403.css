@@ -21,7 +21,7 @@ svg {
   fill: #444;
 }
 .eye {
-  cx: calc(115px + 30px * var(--mouse-x));
+  cx: calc(115px + 30px * var(--mouse-x   ));
   cy: calc(50px + 30px * var(--mouse-y));
 }
 #eye-wrap {
