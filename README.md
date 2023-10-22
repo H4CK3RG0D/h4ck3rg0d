@@ -31,8 +31,11 @@
   
 </p>
 
-
-![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=H4CK3RG0D.visitor-badge)
+<p align="center">
+  <img alt="visitor badge" src="https://visitor-badge.laobi.icu/badge?page_id=H4CK3RG0D.visitor-badge" />
+  <img alt="spotify" src="https://img.shields.io/badge/listening%20to-애열%20by%20이희상-1DB954" />
+  <img alt="hehe" src="https://img.shields.io/badge/love%20-yes%20pls-FFC0CB" />
+</p>
 
 
 ---
