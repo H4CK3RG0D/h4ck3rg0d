@@ -5,7 +5,7 @@
 
 ## I'm a Student, Developer, and Gaming lover!!
 
-- 🔭 I have started writing research papers at [IJHSR][https://ijhsr.terrajournals.org]!
+- 🔭 I have started writing research papers at [International Journal of High School Research](https://ijhsr.terrajournals.org)!
 - 👯 I'm always eager to learn and share my learning
 - 🥅 2023 Goals: Graduate!!!
 - ⚡ Fun fact: I love gaming.
