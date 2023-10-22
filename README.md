@@ -37,7 +37,8 @@
 
 ---
 ### :zap: GitHub Stats
-![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=H4CK3RG0D)
+![Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=H4CK3RG0D)
+<!--  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=H4CK3RG0D&layout=donut)](https://github.com/anuraghazra/github-readme-stats) -->
 
 [website]: https://i-am-jabi.medium.com/
 [instagram]: https://www.instagram.com/i_am_jabi/
