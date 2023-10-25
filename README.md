@@ -13,7 +13,7 @@
 
 ### Connect with me:
 
-[<img align="left" alt="Bryan | Medium" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />](bryanchen.me)
+[<img align="left" alt="Bryan | Medium" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />](http://bryanheinchen.me)
 [<img align="left" alt="Jabiulla | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />]()
 [<img align="left" alt="Jabiulla | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://www.instagram.com/itz_heingonewild/)
 
