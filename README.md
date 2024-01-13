@@ -7,7 +7,7 @@
 
 - 🔭 I have started writing research papers at [International Journal of High School Research](https://ijhsr.terrajournals.org)!
 - 👯 I'm always eager to learn and share my learning
-- 🥅 2023 Goals: Graduate!!!
+- 🥅 2024 Goals: Graduate!!!
 - ⚡ Fun fact: I love gaming.
 
 
