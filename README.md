@@ -14,7 +14,7 @@
 ### Connect with me:
 
 [<img align="left" alt="Bryan | Medium" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />](http://bryanheinchen.me)
-[<img align="left" alt="Jabiulla | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />]()
+[<img align="left" alt="Jabiulla | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://linkedin.com/in/heinthu)
 [<img align="left" alt="Jabiulla | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://www.instagram.com/itz_heingonewild/)
 
 <br />
@@ -42,8 +42,3 @@
 ### :zap: GitHub Stats
 ![Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=H4CK3RG0D)
 <!--  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=H4CK3RG0D&layout=donut)](https://github.com/anuraghazra/github-readme-stats) -->
-
-[website]: https://i-am-jabi.medium.com/
-[instagram]: https://www.instagram.com/i_am_jabi/
-[linkedin]: https://www.linkedin.com/in/jabiulla-shaik/
-[stackoverflow]: https://stackoverflow.com/users/2024360/i-am-jabi/
