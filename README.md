@@ -5,9 +5,9 @@
 
 ## I'm a Student, Developer, and Gaming lover!!
 
-- 🔭 I have started writing research papers at [International Journal of High School Research](https://ijhsr.terrajournals.org)!
+- 🔭 System Engineering @ UIUC
 - 👯 I'm always eager to learn and share my learning
-- 🥅 2024 Goals: Graduate!!!
+- 🥅 2025 Goals: []
 - ⚡ Fun fact: I love gaming.
 
 
