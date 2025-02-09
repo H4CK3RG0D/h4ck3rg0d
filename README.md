@@ -14,8 +14,8 @@
 ### Connect with me:
 
 [<img align="left" alt="Bryan | Medium" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />](http://bryanheinchen.me)
-[<img align="left" alt="Jabiulla | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://linkedin.com/in/heinthu)
-[<img align="left" alt="Jabiulla | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://www.instagram.com/itz_heingonewild/)
+[<img align="left" alt="Bryan | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://linkedin.com/in/bryanheinchen)
+[<img align="left" alt="Bryan | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://www.instagram.com/itz_heingonewild/)
 
 <br />
 
