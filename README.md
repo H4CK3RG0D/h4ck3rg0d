@@ -7,8 +7,8 @@
 
 - 🔭 System Engineering @ UIUC
 - 👯 I'm always eager to learn and share my learning
-- 🥅 2025 Goals: []
-- ⚡ Fun fact: I love gaming.
+- 🥅 2026 Goals: Be happy.
+- ⚡ Fun fact: I love gaming and learning new languages.
 
 
 ### Connect with me:
